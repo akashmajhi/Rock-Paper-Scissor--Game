@@ -5,7 +5,7 @@ public static void main(String[] args) {
         @Override
         public void run() {
             // instantiate a RockPaperScissorGUI obj
-            RockPaperScissorGUI rockPaperScissorGUI=new RockPaperScissorGUI();
+            RockPaperScissorGUI rockPaperScissorGUI = new RockPaperScissorGUI();
             // display the GUI
             rockPaperScissorGUI.setVisible(true);
         }

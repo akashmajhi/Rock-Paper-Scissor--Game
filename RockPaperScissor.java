@@ -7,15 +7,18 @@ public class RockPaperScissor {
     // all of the choices that a computer can choose
     private static  final String[] computerChoices = {"Rock", "Paper","Scissors"};
 
-    public String getComputerChoice() {
+    public String getComputerChoice()
+    {
         return computerChoice;
     }
 
     public int getComputerScore() {
+
         return computerScore;
     }
 
     public int getPlayScore() {
+
         return playScore;
     }
 
@@ -47,7 +50,7 @@ public class RockPaperScissor {
         //evaluate the winner
         if(computerChoice.equals("Rock")){
             if (playerChoice.equals("Paper")){
-                result = "Player wins";
+                result = "Player Wins";
                 playScore++;
             }else if (playerChoice.equals("Scissors")){
                result="Computer Wins";
@@ -57,7 +60,7 @@ public class RockPaperScissor {
             }
         }else if(computerChoice.equals("Paper")){
             if (playerChoice.equals("Scissors")){
-                result = "Player wins";
+                result = "Player Wins";
                 playScore++;
             }else if (playerChoice.equals("Rock")){
                 result="Computer Wins";
@@ -68,7 +71,7 @@ public class RockPaperScissor {
         }else{
             //computer choose the Scissors
             if (playerChoice.equals("Rock")){
-                result = "Player wins";
+                result = "Player Wins";
                 playScore++;
             }else if (playerChoice.equals("Paper")){
                 result="Computer Wins";

@@ -144,7 +144,8 @@ public class RockPaperScissorGUI extends JFrame  implements ActionListener{
         computerChoice.setText(rockPaperScissor.getComputerChoice());
 
         // update score
-        computerScoreLabel.setText("computer:" + rockPaperScissor.getPlayScore());
+        computerScoreLabel.setText("Computer:" + rockPaperScissor.getComputerScore());
+        playerScoreLabel.setText("Player:" + rockPaperScissor.getPlayScore());
 
         //display result dialog
         showDialog(result);
